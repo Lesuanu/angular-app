@@ -1,13 +1,11 @@
 <mat-toolbar class="toolbar-top" color="primary">
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-     
-    </button>
     <span>Crown Bank</span>
-    <span class="example-spacer"></span>
-    <button mat-icon-button class="example-icon favorite-icon"
-                                   aria-label="Example icon-button with heart icon">
-
-    </button>
+    <span class="header-space"></span>
+    <button mat-button-raised (click)="OpenLoginForm()">Login</button>
+    <button mat-button-raised (click)="OpenRegisterForm()">Register</button>
  </mat-toolbar>
+
+
+
  <button type="button" routerLink="employees">Employees</button>
 
