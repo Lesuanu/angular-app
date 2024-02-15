@@ -1,9 +1,19 @@
+$color: rgb(204, 243, 212);
+
 .header-space {
     flex: 1 1 auto;
+}
 
-  }
+.header__login{
+ background-color: $color;
+}
+
+.header__register{
+  background-color: $color;
+}
 
 .toolbar-top{
     height: 60Px;
-    
+    display: flex;
+    gap: 10px
 }
